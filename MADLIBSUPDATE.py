@@ -25,7 +25,7 @@ def prompt(blanks,story_list):
     story_index = [i for i, s in enumerate(story_list, start=0) if re.search("{}".format(blanks), s)] #index for the 
     print(story_index)
     for story_indexes in story_index:
-        story_list[story_indexes] = new_word #WHAT? I JUST SWITCHED THE VAIRIABLES AROUND how does that make a difference?
+        story_list[story_indexes] = new_word
         print(new_word)
 
 for x in range(0,len(blanks)):
