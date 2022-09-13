@@ -25,4 +25,4 @@ for x in range(0,len(blanks_list)):
 seperator = " "
 new_story = seperator.join(story_list)
 print(new_story)
-hi
+
